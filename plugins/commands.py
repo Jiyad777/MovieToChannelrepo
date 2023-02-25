@@ -31,7 +31,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/JK_HELP_DISK')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -326,9 +326,9 @@ async def bot(bot, message):
 @Client.on_message(filters.command("update"))
 async def update(bot, message):
     buttons = [[
-        InlineKeyboardButton("ᴅɪᴅɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇ", url='t.me/moviesupdateck')       
+        InlineKeyboardButton("ᴅɪᴅɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇ", url='t.me/jkmoviestg')       
         ],[
-        InlineKeyboardButton("ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ", url='t.me/cinemakodathi')
+        InlineKeyboardButton("ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ", url='t.me/jk_grp')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_chat_action("typing")
@@ -341,9 +341,9 @@ async def update(bot, message):
 @Client.on_message(filters.command("cmd"))
 async def cmd(bot, message):
     buttons = [[
-        InlineKeyboardButton("ᴅɪᴅɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇ", url='t.me/moviesupdateck')       
+        InlineKeyboardButton("ᴅɪᴅɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇ", url='t.me/jkmoviestg')       
         ],[
-        InlineKeyboardButton("ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ", url='t.me/cinemakodathi')
+        InlineKeyboardButton("ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ", url='t.me/jk_grp')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_photo(
