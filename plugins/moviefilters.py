@@ -84,7 +84,7 @@ async def mahaan(bot, msg):
         ],[
         InlineKeyboardButton("‼️ ALERT ‼️", callback_data="alert")
         ],[
-        InlineKeyboardButton("🌀 Jᴏɪɴ ᴄʜᴀɴɴᴇL 🌀", url="https://t.me/moviesupdateck")
+        InlineKeyboardButton("🌀 Jᴏɪɴ ᴄʜᴀɴɴᴇL 🌀", url="https://t.me/jkmoviestg")
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await msg.reply_sticker(
@@ -98,7 +98,7 @@ async def regex(bot, msg):
         ],[
         InlineKeyboardButton("‼️ ALERT ‼️", callback_data="art")
         ],[
-        InlineKeyboardButton("🌀 Jᴏɪɴ ᴄʜᴀɴɴᴇL 🌀", url="https://t.me/moviesupdateck")
+        InlineKeyboardButton("🌀 Jᴏɪɴ ᴄʜᴀɴɴᴇL 🌀", url="https://t.me/jkmoviestg")
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await msg.reply_sticker(
